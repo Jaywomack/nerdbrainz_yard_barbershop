@@ -2,29 +2,30 @@ import aboutImage from "../images/about_image.jpeg";
 
 const About = () => {
   return (
-    <section id="about" className="text-white body-font">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-center">
-        About Us
-      </h1>
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="  mb-10 md:mb-0">
+    <section id="about" className="text-white mt-12 md:my-24 ">
+      <h2 className="text-4xl text-center my-24">Est. 2018 Hillyard</h2>
+      <div className="flex flex-wrap overflow-hidden">
+        <div className="w-full overflow-hidden lg:w-1/2">
           <img
-            className="object-cover object-center rounded filter grayscale"
+            className="w-full object-cover object-center rounded filter grayscale px-5 mb-12"
             alt="hero"
             src={aboutImage}
           />
         </div>
-        <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center text-2xl">
-          <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            excepturi ullam quaerat harum mollitia, numquam delectus expedita
-            laudantium natus cum aspernatur velit amet autem quam sapiente
-            reiciendis praesentium commodi recusandae libero dolorum consectetur
-            dicta ducimus quas. Reiciendis quia doloribus molestias architecto
-            voluptates ea? Culpa modi at dolorem mollitia amet maiores inventore
-            ab, velit laborum placeat facilis alias veritatis, ex odio ea
-            laudantium voluptas in omnis, itaque quasi et minima. Omnis quisquam
-            vitae possimus cumque error maxime corrupti explicabo? Dignissimos
+        <div className="w-full overflow-hidden lg:w-1/2 text-2xl">
+          <h1 className="text-5xl text-center  my-6 md:mt-24 lg:mt-0">
+            About Us
+          </h1>
+
+          <p className="mb-8  text-center w-full px-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+            delectus molestiae? Numquam suscipit maxime reiciendis, quo
+            consequuntur distinctio voluptatibus. Provident neque nostrum autem
+            iusto modi, consectetur incidunt earum iure debitis commodi expedita
+            maiores quae consequuntur porro ea voluptas aliquam reiciendis
+            beatae qui. Iusto placeat, inventore aspernatur porro ab quidem
+            dolorum recusandae voluptate fugit iure dignissimos, amet eius at
+            iste laboriosam.
           </p>
         </div>
       </div>
