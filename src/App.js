@@ -5,15 +5,17 @@ import Gallery from "./components/Gallery";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Barbers from "./components/Barbers";
 
 function App() {
   return (
     <div className="App bg-black min-h-screen">
       <Navbar />
       <Hero />
+      <Pricing />
+      <Barbers />
       <About />
       <Gallery />
-      <Pricing />
       <Contact />
       <Footer />
     </div>

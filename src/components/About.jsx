@@ -3,11 +3,11 @@ import aboutImage from "../images/about_image.jpeg";
 const About = () => {
   return (
     <section id="about" className="text-white mt-12 md:my-24 ">
-      <h2 className="text-4xl text-center my-24">Est. 2018 Hillyard</h2>
+      <h2 className="text-4xl text-center mb-24">Est. 2018 Hillyard</h2>
       <div className="flex flex-wrap overflow-hidden">
         <div className="w-full overflow-hidden lg:w-1/2">
           <img
-            className="w-full object-cover object-center rounded filter grayscale px-5 mb-12"
+            className="w-full object-cover object-center rounded-lg filter grayscale px-5 mb-12"
             alt="hero"
             src={aboutImage}
           />
