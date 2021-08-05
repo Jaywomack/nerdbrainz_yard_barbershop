@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 #hero-img {
   background-image: url("./images/yard_hero.jpeg");
   background-position: center;
