@@ -1,20 +1,18 @@
 const Pricing = () => {
   return (
     <section id="pricing" className="text-white body-font overflow-hidden">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font   text-white">
-            Services
-          </h1>
-        </div>
+      <div className="container px-5 pb-24 mx-auto">
         <div className="flex flex-wrap -m-4">
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-            <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden">
+            <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
+              <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
+                Cliff Nickell
+              </span>
               <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
-                Basic Cut
+                Cliff's Services
               </h2>
-              <h1 className="text-5xl text-white pb-4 mb-4 border-b border-white leading-none">
-                $25.00
+              <h1 className="text-4xl text-white pb-4 mb-4 border-b border-white leading-none">
+                $25.00-$100.00
               </h1>
               <p className="flex items-center text-white mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
@@ -23,8 +21,8 @@ const Pricing = () => {
                     stroke="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
+                    strokeWidth="5"
+                    className="w-3 h-3 text-red-600"
                     viewBox="0 0 24 24"
                   >
                     <path d="M20 6L9 17l-5-5"></path>
@@ -66,20 +64,21 @@ const Pricing = () => {
               </p>
 
               <p className="text-xs text-white mt-3">
-                Our basic cuts start at $25.00 With many add ons available
+                Basic cut includes buzz cut, head shave, senior citizen, line-up
+                w/beard.
               </p>
             </div>
           </div>
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-            <div className="h-full p-6 rounded-lg border-2 border-red-600 flex flex-col relative overflow-hidden">
+            <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
               <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
-                POPULAR
+                Cliff Nickell
               </span>
               <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
-                Cut and Shave
+                Cliff's Services
               </h2>
-              <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-white">
-                <span>$35.00</span>
+              <h1 className="text-4xl text-white pb-4 mb-4 border-b border-white leading-none">
+                $25.00-$100.00
               </h1>
               <p className="flex items-center text-white mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
@@ -88,14 +87,14 @@ const Pricing = () => {
                     stroke="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
+                    strokeWidth="5"
+                    className="w-3 h-3 text-red-600"
                     viewBox="0 0 24 24"
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Any Basic Haircut
+                Fades
               </p>
               <p className="flex items-center text-white mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
@@ -111,23 +110,7 @@ const Pricing = () => {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Shave
-              </p>
-              <p className="flex items-center text-white mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Line Up
+                Head Shave
               </p>
               <p className="flex items-center text-white mb-6">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
@@ -143,22 +126,25 @@ const Pricing = () => {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Another Thing
+                Line Ups
               </p>
 
               <p className="text-xs text-white mt-3">
-                The full experience that will have your hair and beard dialed to
-                the max.
+                Basic cut includes buzz cut, head shave, senior citizen, line-up
+                w/beard.
               </p>
             </div>
           </div>
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-            <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden">
+            <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
+              <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
+                Cliff Nickell
+              </span>
               <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
-                Custom Cut
+                Cliff's Services
               </h2>
-              <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-white">
-                <span>$50.00+</span>
+              <h1 className="text-4xl text-white pb-4 mb-4 border-b border-white leading-none">
+                $25.00-$100.00
               </h1>
               <p className="flex items-center text-white mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
@@ -167,92 +153,32 @@ const Pricing = () => {
                     stroke="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
+                    strokeWidth="5"
+                    className="w-3 h-3 text-red-600"
                     viewBox="0 0 24 24"
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Custom Styling
-              </p>
-              <p className="flex items-center text-white mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Names or Designs
-              </p>
-              <p className="flex items-center text-white mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Whatever you can imagine
-              </p>
-              <p className="flex items-center text-white mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Whatever you can imagine
-              </p>
-              <p className="flex items-center text-white mb-6">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Whatever you can imagine
+                Fades
               </p>
 
               <p className="text-xs text-white mt-3">
-                Literally you probably haven't heard of them jean shorts.
+                Basic cut includes buzz cut, head shave, senior citizen, line-up
+                w/beard.
               </p>
             </div>
           </div>
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-            <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden">
+            <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
+              <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
+                Cliff Nickell
+              </span>
               <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
-                Our Shop
+                Cliff's Services
               </h2>
-              <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-white">
-                <span>Check Out our products in the shop</span>
+              <h1 className="text-4xl text-white pb-4 mb-4 border-b border-white leading-none">
+                $25.00-$100.00
               </h1>
               <p className="flex items-center text-white mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
@@ -261,14 +187,14 @@ const Pricing = () => {
                     stroke="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
+                    strokeWidth="5"
+                    className="w-3 h-3 text-red-600"
                     viewBox="0 0 24 24"
                   >
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Gels
+                Fades
               </p>
               <p className="flex items-center text-white mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
@@ -284,39 +210,7 @@ const Pricing = () => {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                moose{" "}
-              </p>
-              <p className="flex items-center text-white mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                combs{" "}
-              </p>
-              <p className="flex items-center text-white mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                brushes{" "}
+                Head Shave
               </p>
               <p className="flex items-center text-white mb-6">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-white rounded-full flex-shrink-0">
@@ -332,12 +226,12 @@ const Pricing = () => {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                picks{" "}
+                Line Ups
               </p>
 
               <p className="text-xs text-white mt-3">
-                You gotta stay fresh in between cuts. Now with our product line
-                up you can.
+                Basic cut includes buzz cut, head shave, senior citizen, line-up
+                w/beard.
               </p>
             </div>
           </div>

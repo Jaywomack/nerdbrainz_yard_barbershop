@@ -1,15 +1,20 @@
+import cliff_profile from "../images/cliff_profile.png";
+import nate_profile from "../images/nate_profile.jpeg";
 const Barbers = () => {
   return (
     <section className="text-white bg-black body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="text-4xl font-medium title-font mb-4 text-white">
+          <h1
+            id="pricing"
+            className="text-4xl font-medium title-font mb-4 text-white"
+          >
             OUR TEAM
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-xl">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them.
+            Our team is strong. We offer all the popular cuts you could want.
+            And we guarantee your happiness. You will leave here looking fresh
+            no matter the barber you choose. Check out our line up.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -18,55 +23,104 @@ const Barbers = () => {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFyYmVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                src={cliff_profile}
               />
               <div className="w-full">
                 <h2 className="title-font font-medium text-lg text-white">
-                  Alper Kamu
+                  Cliff Nickell
                 </h2>
-                <h3 className="text-white mb-3">UI Developer</h3>
-                <p className="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span className="inline-flex">
-                  <a href="/" className="text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                    </svg>
-                  </a>
-                  <a href="/" className="ml-2 text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                    </svg>
-                  </a>
-                  <a href="/" className="ml-2 text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                    </svg>
-                  </a>
-                </span>
+                <h3 className="text-white mb-3 text-red-600">Owner / Barber</h3>
+              </div>
+              <div className="">
+                <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
+                  <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
+                    Cliff Nickell
+                  </span>
+                  <h2 className="text-base tracking-widest title-font mb-1 font-medium">
+                    Cliff's Services
+                  </h2>
+                  <h1 className="text-4xl text-white pb-4 mb-4 border-b border-red-600 leading-none">
+                    $25.00-$100.00
+                  </h1>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">BASIC CUT</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          30mins
+                        </span>
+                        $25.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">FADE</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1 hr
+                        </span>
+                        $30.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">BALD FADE</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.25hr
+                        </span>
+                        $35.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">FULL SERVICE</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.25hr
+                        </span>
+                        $40.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">VIP</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.5hr
+                        </span>
+                        $50.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">HOUSE CALLS</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.5hr
+                        </span>
+                        $100.00
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-white mt-3">
+                    **Basic cut includes buzz cut, head shave, senior citizen,
+                    line-up w/beard.
+                  </p>
+                  <p className="text-xs text-white mt-3">
+                    **Full Service includes fade, beard and eyebrows.
+                  </p>
+                  <p className="text-xs text-white mt-3">
+                    **VIP includes fade, line-up, beard, lavender hot towel,
+                    black mask.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -75,169 +129,93 @@ const Barbers = () => {
               <img
                 alt="team"
                 className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmFyYmVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                src={nate_profile}
               />
               <div className="w-full">
                 <h2 className="title-font font-medium text-lg text-white">
-                  Holden Caulfield
+                  Nate Webster
                 </h2>
-                <h3 className="text-white mb-3">UI Developer</h3>
-                <p className="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span className="inline-flex">
-                  <a href="/" className="text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                    </svg>
-                  </a>
-                  <a href="/" className="ml-2 text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                    </svg>
-                  </a>
-                  <a href="/" className="ml-2 text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                    </svg>
-                  </a>
-                </span>
+                <h3 className="text-white mb-3 text-red-600">Barber</h3>
               </div>
-            </div>
-          </div>
-          <div className="p-4 lg:w-1/4 md:w-1/2">
-            <div className="h-full flex flex-col items-center text-center">
-              <img
-                alt="team"
-                className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                src="https://images.unsplash.com/photo-1512864084360-7c0c4d0a0845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGJhcmJlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
-              />
-              <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-white">
-                  Atticus Finch
-                </h2>
-                <h3 className="text-white mb-3">UI Developer</h3>
-                <p className="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span className="inline-flex">
-                  <a href="/" className="text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                    </svg>
-                  </a>
-                  <a href="/" className="ml-2 text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                    </svg>
-                  </a>
-                  <a href="/" className="ml-2 text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                    </svg>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="p-4 lg:w-1/4 md:w-1/2">
-            <div className="h-full flex flex-col items-center text-center">
-              <img
-                alt="team"
-                className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                src="https://images.unsplash.com/photo-1596513058260-ac19435ec75a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTR8fGJhcmJlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-              />
-              <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-white">
-                  Henry Letham
-                </h2>
-                <h3 className="text-white mb-3">UI Developer</h3>
-                <p className="mb-4">
-                  DIY tote bag drinking vinegar cronut adaptogen squid fanny
-                  pack vaporware.
-                </p>
-                <span className="inline-flex">
-                  <a href="/" className="text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                    </svg>
-                  </a>
-                  <a href="/" className="ml-2 text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                    </svg>
-                  </a>
-                  <a href="/" className="ml-2 text-white">
-                    <svg
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      className="w-5 h-5"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                    </svg>
-                  </a>
-                </span>
+              <div className="">
+                <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
+                  <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
+                    Nate Webster
+                  </span>
+                  <h2 className="text-base tracking-widest title-font mb-1 font-medium">
+                    Nate's Services
+                  </h2>
+                  <h1 className="text-4xl text-white pb-4 mb-4 border-b border-red-600 leading-none">
+                    $25.00-$100.00
+                  </h1>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">BASIC CUT</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          30mins
+                        </span>
+                        $25.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">FADE</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1 hr
+                        </span>
+                        $30.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">BALD FADE</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.25hr
+                        </span>
+                        $35.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">FULL SERVICE</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.25hr
+                        </span>
+                        $40.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">VIP</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.5hr
+                        </span>
+                        $50.00
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-white mt-3">
+                    **Basic cut includes buzz cut, head shave, senior citizen,
+                    line-up w/beard.
+                  </p>
+                  <p className="text-xs text-white mt-3">
+                    **Full Service includes fade, beard and eyebrows.
+                  </p>
+                  <p className="text-xs text-white mt-3">
+                    **VIP includes fade, line-up, beard, lavender hot towel,
+                    black mask.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
