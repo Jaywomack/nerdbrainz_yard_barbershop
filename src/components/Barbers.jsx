@@ -32,7 +32,7 @@ const Barbers = () => {
               <div className="w-full">
                 <a
                   className="title-font font-medium text-lg text-white"
-                  href="tel:123-456-7890"
+                  href="tel:509-720-0672"
                 >
                   <h2 className="title-font font-medium text-lg text-white">
                     Cliff Nickell
@@ -158,7 +158,7 @@ const Barbers = () => {
               <div className="w-full">
                 <a
                   className="title-font font-medium text-lg text-white"
-                  href="tel:123-456-7890"
+                  href="tel:208-704-6952"
                 >
                   <h2 className="title-font font-medium text-lg text-white">
                     Nate Webster{" "}
@@ -267,7 +267,7 @@ const Barbers = () => {
               <div className="w-full">
                 <a
                   className="title-font font-medium text-lg text-white"
-                  href="tel:123-456-7890"
+                  href="tel:509-842-7402"
                 >
                   <h2 className="title-font font-medium text-lg text-white">
                     Nicholad Dugas
@@ -373,7 +373,7 @@ const Barbers = () => {
               <div className="w-full">
                 <a
                   className="title-font font-medium text-lg text-white"
-                  href="tel:123-456-7890"
+                  href="tel:509-560-9796"
                 >
                   <h2 className="title-font font-medium text-lg text-white">
                     Louie Reyes
