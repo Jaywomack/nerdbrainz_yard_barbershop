@@ -3,7 +3,6 @@ import cliff_1 from "../images/cliff_1.jpg";
 import cliff_2 from "../images/cliff_2.jpg";
 import cliff_3 from "../images/cliff_3.png";
 import cliff_4 from "../images/cliff_4.jpg";
-import cliff_5 from "../images/cliff_5.jpg";
 import cliff_6 from "../images/cliff_6.jpg";
 import cliff_7 from "../images/cliff_7.jpeg";
 import cliff_8 from "../images/cliff_8.jpeg";
@@ -292,9 +291,9 @@ const Gallery = () => {
               Custom Styles
             </h1>
             <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-white">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them man bun deep jianbing selfies heirloom.
+              We can cut just about any style. Most are already covered in our
+              pricing, but if you need something truely custom don't be afraid
+              to ask. We got you!
             </p>
           </div>
           <div className="flex flex-wrap md:-m-2 -m-1">

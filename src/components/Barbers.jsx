@@ -1,5 +1,8 @@
 import cliff_profile from "../images/cliff_profile.png";
 import nate_profile from "../images/nate_profile.jpeg";
+import louie_profile from "../images/louie_profile.png";
+import nicks_profile from "../images/nicks_profile.png";
+import insta from "../images/insta.png";
 const Barbers = () => {
   return (
     <section className="text-white bg-black body-font">
@@ -13,11 +16,12 @@ const Barbers = () => {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-xl">
             Our team is strong. We offer all the popular cuts you could want.
-            And we guarantee your happiness. You will leave here looking fresh
-            no matter the barber you choose. Check out our line up.
+            And we guarantee your happiness. You will 100% leave here looking
+            fresh no matter the barber you choose. Check out our line up.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
+          {/* start barber 1 pricing */}
           <div className="p-4 lg:w-1/4 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
               <img
@@ -26,10 +30,28 @@ const Barbers = () => {
                 src={cliff_profile}
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-white">
-                  Cliff Nickell
-                </h2>
-                <h3 className="text-white mb-3 text-red-600">Owner / Barber</h3>
+                <a
+                  className="title-font font-medium text-lg text-white"
+                  href="tel:123-456-7890"
+                >
+                  <h2 className="title-font font-medium text-lg text-white">
+                    Cliff Nickell
+                  </h2>
+                  <p>509-720-0672</p>
+                  <h3 className="text-white mb-3 text-red-600">
+                    Owner / Barber
+                  </h3>
+                </a>
+                <a
+                  href="https://www.instagram.com/theyardbarber509/"
+                  className="text-center mx-auto"
+                >
+                  <img
+                    src={insta}
+                    className="h-24 w-24 mx-auto mb-3 filter invert"
+                    alt=""
+                  />
+                </a>
               </div>
               <div className="">
                 <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
@@ -124,6 +146,8 @@ const Barbers = () => {
               </div>
             </div>
           </div>
+          {/* End Barber 1 pricing */}
+          {/* start barber 2 pricing */}
           <div className="p-4 lg:w-1/4 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
               <img
@@ -132,10 +156,26 @@ const Barbers = () => {
                 src={nate_profile}
               />
               <div className="w-full">
-                <h2 className="title-font font-medium text-lg text-white">
-                  Nate Webster
-                </h2>
-                <h3 className="text-white mb-3 text-red-600">Barber</h3>
+                <a
+                  className="title-font font-medium text-lg text-white"
+                  href="tel:123-456-7890"
+                >
+                  <h2 className="title-font font-medium text-lg text-white">
+                    Nate Webster{" "}
+                  </h2>
+                  <p>208-704-6952</p>
+                  <h3 className="text-white mb-3 text-red-600">Barber</h3>
+                </a>
+                <a
+                  href="https://www.instagram.com/certafide_king/"
+                  className="text-center mx-auto"
+                >
+                  <img
+                    src={insta}
+                    className="h-24 w-24 mx-auto mb-3 filter invert"
+                    alt=""
+                  />
+                </a>
               </div>
               <div className="">
                 <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
@@ -146,22 +186,153 @@ const Barbers = () => {
                     Nate's Services
                   </h2>
                   <h1 className="text-4xl text-white pb-4 mb-4 border-b border-red-600 leading-none">
-                    $25.00-$100.00
+                    $25.00-$125.00
                   </h1>
                   <div className="inline-flex">
                     <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">BASIC CUT</p>
+                      <p className="ml-3">CHILD / TEEN</p>
                       <p className="p-1 text-red-600 text-xl rounded ml-3">
                         <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          30mins
+                          1 hr
                         </span>
-                        $25.00
+                        $35.00
                       </p>
                     </div>
                   </div>
                   <div className="inline-flex">
                     <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">FADE</p>
+                      <p className="ml-3">ADULT CUT</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1 hr
+                        </span>
+                        $40.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">FULL KING</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.5 hr
+                        </span>
+                        $60.00
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">HOUSE CALL</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.5hr
+                        </span>
+                        $125 +
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-white mt-3">
+                    **Adult Cut includes fade, skin fade, or taper fade with
+                    razor lining.
+                  </p>
+                  <p className="text-xs text-white mt-3">
+                    **Full King includes fade, skin fade, or taper fade with
+                    razor lining, enhancements, eyebrows, nose hairs, hot towel
+                    shave, black mask.
+                  </p>
+                  <p className="text-xs text-white mt-3">
+                    **Child / Teen include fade, skin fade, taper fade with
+                    razor lining, hair designed add $5 + depending on how
+                    intricate the design
+                  </p>
+                  <p className="text-xs text-white mt-3">
+                    **Enhancements on request
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* End barber 2 pricing */}
+          {/* start barber 3 pricing */}
+          <div className="p-4 lg:w-1/4 md:w-1/2">
+            <div className="h-full flex flex-col items-center text-center">
+              <img
+                alt="team"
+                className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                src={nicks_profile}
+              />
+              <div className="w-full">
+                <a
+                  className="title-font font-medium text-lg text-white"
+                  href="tel:123-456-7890"
+                >
+                  <h2 className="title-font font-medium text-lg text-white">
+                    Nicholad Dugas
+                  </h2>
+                  <p>509-842-7402</p>
+                  <h3 className="text-white mb-3 text-red-600">Barber</h3>
+                </a>
+                <a
+                  href="https://www.instagram.com/hillyardbarber/"
+                  className="text-center mx-auto"
+                >
+                  <img
+                    src={insta}
+                    className="h-24 w-24 mx-auto mb-3 filter invert"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="">
+                <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
+                  <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
+                    Nicholas Dugas
+                  </span>
+                  <h2 className="text-base tracking-widest title-font mb-1 font-medium">
+                    Nick's Services
+                  </h2>
+                  <h1 className="text-4xl text-white pb-4 mb-4 border-b border-red-600 leading-none">
+                    $15.00-$30.00
+                  </h1>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">KIDS CUT</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          30mins
+                        </span>
+                        $17.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">BUZZ CUT</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          30 mins
+                        </span>
+                        $20.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">ADULT CUT</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1 hr
+                        </span>
+                        $20.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">HAIR CUT / BEARD</p>
                       <p className="p-1 text-red-600 text-xl rounded ml-3">
                         <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
                           1 hr
@@ -172,12 +343,97 @@ const Barbers = () => {
                   </div>
                   <div className="inline-flex">
                     <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">BALD FADE</p>
+                      <p className="ml-3">BEARD</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          30 mins
+                        </span>
+                        $15.00
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-white mt-3">
+                    **Really great with kids.**
+                  </p>
+                  <p className="text-xs text-white mt-3">**Great cuts.**</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* End Barber 3 pricing */}
+          {/* start barber 4 pricing */}
+          <div className="p-4 lg:w-1/4 md:w-1/2">
+            <div className="h-full flex flex-col items-center text-center">
+              <img
+                alt="team"
+                className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                src={louie_profile}
+              />
+              <div className="w-full">
+                <a
+                  className="title-font font-medium text-lg text-white"
+                  href="tel:123-456-7890"
+                >
+                  <h2 className="title-font font-medium text-lg text-white">
+                    Louie Reyes
+                  </h2>
+                  <p>509-560-9796</p>
+                  <h3 className="text-white mb-3 text-red-600">Barber</h3>
+                </a>
+                <a
+                  href="https://www.instagram.com/reyescuts24/"
+                  className="text-center mx-auto"
+                >
+                  <img
+                    src={insta}
+                    className="h-24 w-24 mx-auto mb-3 filter invert"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="">
+                <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
+                  <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
+                    Louie{" "}
+                  </span>
+                  <h2 className="text-base tracking-widest title-font mb-1 font-medium">
+                    Louie's Services
+                  </h2>
+                  <h1 className="text-4xl text-white pb-4 mb-4 border-b border-red-600 leading-none">
+                    $30.00-$100.00
+                  </h1>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">UNDERCUT</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          30mins
+                        </span>
+                        $30.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">SHADOW FADE</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1 hr
+                        </span>
+                        $30.00
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">SKIN FADE</p>
                       <p className="p-1 text-red-600 text-xl rounded ml-3">
                         <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
                           1.25hr
                         </span>
-                        $35.00
+                        $30.00
                       </p>
                     </div>
                   </div>
@@ -188,7 +444,7 @@ const Barbers = () => {
                         <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
                           1.25hr
                         </span>
-                        $40.00
+                        $50.00
                       </p>
                     </div>
                   </div>
@@ -203,22 +459,29 @@ const Barbers = () => {
                       </p>
                     </div>
                   </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">HOUSE CALLS</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.5hr
+                        </span>
+                        $100.00
+                      </p>
+                    </div>
+                  </div>
 
                   <p className="text-xs text-white mt-3">
-                    **Basic cut includes buzz cut, head shave, senior citizen,
-                    line-up w/beard.
+                    **Cuts include shears, straight razor work and eyebrows
                   </p>
                   <p className="text-xs text-white mt-3">
-                    **Full Service includes fade, beard and eyebrows.
-                  </p>
-                  <p className="text-xs text-white mt-3">
-                    **VIP includes fade, line-up, beard, lavender hot towel,
-                    black mask.
+                    ** Beards additional $5
                   </p>
                 </div>
               </div>
             </div>
           </div>
+          {/* End Barber 4 pricing */}
         </div>
       </div>
     </section>
