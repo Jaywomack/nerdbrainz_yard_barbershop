@@ -270,7 +270,7 @@ const Barbers = () => {
                   href="tel:509-842-7402"
                 >
                   <h2 className="title-font font-medium text-lg text-white">
-                    Nicholad Dugas
+                    Nicholas Dugas
                   </h2>
                   <p>509-842-7402</p>
                   <h3 className="text-white mb-3 text-red-600">Barber</h3>
@@ -395,7 +395,7 @@ const Barbers = () => {
               <div className="">
                 <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
                   <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
-                    Louie{" "}
+                    Louie Reyes
                   </span>
                   <h2 className="text-base tracking-widest title-font mb-1 font-medium">
                     Louie's Services
