@@ -25,7 +25,7 @@ const Contact = () => {
           <p className="leading-relaxed mb-5 text-gray-600">The Yard Barber</p>
           <div className="relative mb-4">
             <p>
-              Phone: <a href="tel:509-720-0672">509-720-0672</a>
+              Phone: <a href="tel:509-481-1439">509-481-1439</a>
             </p>
           </div>
           <div className="relative mb-4">

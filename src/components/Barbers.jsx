@@ -299,7 +299,7 @@ const Barbers = () => {
                   </h1>
                   <div className="inline-flex">
                     <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">KIDS CUT</p>
+                      <p className="ml-3">BUZZ CUT</p>
                       <p className="p-1 text-red-600 text-xl rounded ml-3">
                         <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
                           30mins
@@ -310,7 +310,7 @@ const Barbers = () => {
                   </div>
                   <div className="inline-flex">
                     <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">BUZZ CUT</p>
+                      <p className="ml-3">KIDS CUT</p>
                       <p className="p-1 text-red-600 text-xl rounded ml-3">
                         <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
                           30 mins
