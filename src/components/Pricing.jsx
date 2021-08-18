@@ -66,6 +66,7 @@ const Pricing = () => {
               <p className="text-xs text-white mt-3">
                 Basic cut includes buzz cut, head shave, senior citizen, line-up
                 w/beard.
+                <br />
               </p>
             </div>
           </div>
@@ -232,6 +233,8 @@ const Pricing = () => {
               <p className="text-xs text-white mt-3">
                 Basic cut includes buzz cut, head shave, senior citizen, line-up
                 w/beard.
+                <br />
+                <br />
               </p>
             </div>
           </div>

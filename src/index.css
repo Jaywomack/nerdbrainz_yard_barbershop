@@ -17,3 +17,11 @@ body {
 .logo-font {
   font-family: "Orbitron", sans-serif;
 }
+
+#image_nate_5 {
+  transform: rotateY(180deg);
+}
+
+#image_cliff_1 {
+  transform: rotateY(180deg);
+}

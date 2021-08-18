@@ -1,32 +1,31 @@
-import cliff_profile from "../images/cliff_profile.png";
-import nate_profile from "../images/nate_profile.jpeg";
-import louie_profile from "../images/louie_profile.png";
-import nicks_profile from "../images/nicks_profile.png";
+import cliff_profile from "../images/cliff_profile_three.png";
+import nate_profile from "../images/nate_profile_two.png";
+import louie_profile from "../images/louie_profile_two.png";
+import nicks_profile from "../images/nicks_profile_two.png";
 import insta from "../images/insta.png";
 const Barbers = () => {
   return (
-    <section className="text-white bg-black body-font">
+    <section className="text-white bg-black body-font ">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
+        <div className="flex flex-col text-center w-full mb-20 text-base">
           <h1
             id="pricing"
             className="text-4xl font-medium title-font mb-4 text-white"
           >
-            OUR TEAM
+            MEET THE TEAM
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-xl">
-            Our team is strong. We offer all the popular cuts you could want.
-            And we guarantee your happiness. You will 100% leave here looking
-            fresh no matter the barber you choose. Check out our line up.
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl">
+            At The Yard Barber's our team offer a full range of classic and
+            modern mens haircuts for all hair types.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {/* start barber 1 pricing */}
           <div className="p-4 lg:w-1/4 md:w-1/2">
-            <div className="h-full flex flex-col items-center text-center">
+            <div className="h-full flex flex-col items-center text-center ">
               <img
                 alt="team"
-                className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4 border-2 border-red-600 "
                 src={cliff_profile}
               />
               <div className="w-full">
@@ -137,6 +136,7 @@ const Barbers = () => {
                   </p>
                   <p className="text-xs text-white mt-3">
                     **Full Service includes fade, beard and eyebrows.
+                    <br />
                   </p>
                   <p className="text-xs text-white mt-3">
                     **VIP includes fade, line-up, beard, lavender hot towel,
@@ -357,6 +357,20 @@ const Barbers = () => {
                     **Really great with kids.**
                   </p>
                   <p className="text-xs text-white mt-3">**Great cuts.**</p>
+
+                  {/* start of filler */}
+                  <p className="text-xs text-black mt-3">
+                    **Basic cut includes buzz cut, head shave, senior citizen,
+                    line-up w/beard.
+                  </p>
+                  <p className="text-xs text-black mt-3">
+                    **Full Service includes fade, beard and eyebrows.
+                    <br />
+                  </p>
+                  <p className="text-xs text-black mt-3">
+                    **VIP includes fade, line-up, beard,
+                  </p>
+                  {/* end of filler */}
                 </div>
               </div>
             </div>
@@ -477,6 +491,13 @@ const Barbers = () => {
                   <p className="text-xs text-white mt-3">
                     ** Beards additional $5
                   </p>
+                  {/* start of filler */}
+                  <p className="text-xs text-black mt-3">
+                    **Basic cut includes buzz cut, head shave, senior citizen,
+                    line-up w/beard.
+                  </p>
+
+                  {/* end of filler */}
                 </div>
               </div>
             </div>

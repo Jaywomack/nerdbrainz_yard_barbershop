@@ -1,7 +1,9 @@
-import cliff_profile from "../images/cliff_profile.jpeg";
+import cliff_profile from "../images/cliff_profile_two.png";
 import cliff_1 from "../images/cliff_1.jpg";
+
 import cliff_2 from "../images/cliff_2.jpg";
 import cliff_3 from "../images/cliff_3.png";
+
 import cliff_4 from "../images/cliff_4.jpg";
 import cliff_6 from "../images/cliff_6.jpg";
 import cliff_7 from "../images/cliff_7.jpeg";
@@ -14,6 +16,7 @@ import nate_4 from "../images/nate_4.jpeg";
 import nate_5 from "../images/nate_5.jpeg";
 import nate_6 from "../images/nate_6.jpeg";
 import nate_7 from "../images/nate_7.jpeg";
+import nate_8 from "../images/nate_6.png";
 
 const Gallery = () => {
   return (
@@ -28,7 +31,7 @@ const Gallery = () => {
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 sm:w-1/2 p-4">
-              <div className="flex relative">
+              <div id="image_cliff_1" className="flex relative">
                 <img
                   alt="Gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
@@ -273,7 +276,7 @@ const Gallery = () => {
                   <h1 className="title-font text-lg font-medium text-black mb-3">
                     Fade
                   </h1>
-                  <p className="leading-relaxed text-black">
+                  <p className="leading-relaxed text-black ">
                     Description of the Haircut. An idea of what the style
                     entails and what style it matches up to
                   </p>
@@ -290,15 +293,15 @@ const Gallery = () => {
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-white lg:w-1/3 lg:mb-0 mb-4 mx-auto">
               Custom Styles
             </h1>
-            <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-white">
-              We can cut just about any style. Most are already covered in our
-              pricing, but if you need something truely custom don't be afraid
-              to ask. We got you!
+            <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-left text-base text-white text-2xl">
+              If you have a look in mind that you can't see in our pricing, just
+              ask. If you need something truely custom
+              <span className="text-3xl text-white"> We Got You!</span>
             </p>
           </div>
-          <div className="flex flex-wrap md:-m-2 -m-1">
-            <div className="flex flex-wrap w-1/2">
-              <div className="md:p-2 p-1 w-1/2">
+          <div className="container flex flex-wrap md:-m-2 -m-1">
+            <div className=" flex flex-wrap w-1/2">
+              <div id="image_nate_5" className="md:p-2 p-1 w-1/2">
                 <img
                   alt="Gallery"
                   className="w-full object-cover h-full object-center block"
@@ -312,15 +315,15 @@ const Gallery = () => {
                   src={nate_6}
                 />
               </div>
-              <div className="md:p-2 p-1 w-full">
+              <div className="md:p-2 mt-1 p-1 w-full ">
                 <img
                   alt="Gallery"
-                  className="w-full h-full object-cover object-center block"
+                  className="w-full h-5/6  object-cover object-center block"
                   src={cliff_profile}
                 />
               </div>
             </div>
-            <div className="flex flex-wrap w-1/2">
+            <div className="flex flex-wrap w-1/2 h-5/6">
               <div className="md:p-2 p-1 w-full">
                 <img
                   alt="Gallery"
@@ -338,7 +341,7 @@ const Gallery = () => {
               <div className="md:p-2 p-1 w-1/2">
                 <img
                   alt="Gallery"
-                  className="w-full object-cover h-full object-center block"
+                  className="w-full object-cover  object-center block"
                   src={cliff_1}
                 />
               </div>
