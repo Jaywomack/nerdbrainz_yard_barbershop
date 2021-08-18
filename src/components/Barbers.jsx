@@ -186,7 +186,7 @@ const Barbers = () => {
                     Nate's Services
                   </h2>
                   <h1 className="text-4xl text-white pb-4 mb-4 border-b border-red-600 leading-none">
-                    $25.00-$125.00
+                    $35.00-$125.00
                   </h1>
                   <div className="inline-flex">
                     <div className="w-full inline-flex justify-between items-center align-middle">
