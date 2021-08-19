@@ -326,7 +326,7 @@ const Barbers = () => {
                         <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
                           1 hr
                         </span>
-                        $20.00
+                        $30.00
                       </p>
                     </div>
                   </div>

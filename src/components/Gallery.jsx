@@ -17,6 +17,10 @@ import nate_5 from "../images/nate_5.jpeg";
 import nate_6 from "../images/nate_6.jpeg";
 import nate_7 from "../images/nate_7.jpeg";
 import nate_8 from "../images/nate_6.png";
+import louie_1 from "../images/louie_1.2.png";
+import louie_2 from "../images/louie_2.2.png";
+import louie_3 from "../images/louie_8.2.png";
+import louie_4 from "../images/louie_11.2.png";
 
 const Gallery = () => {
   return (
@@ -305,7 +309,7 @@ const Gallery = () => {
                 <img
                   alt="Gallery"
                   className="w-full object-cover h-full object-center block"
-                  src={nate_5}
+                  src={louie_3}
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
@@ -318,8 +322,8 @@ const Gallery = () => {
               <div className="md:p-2 mt-1 p-1 w-full ">
                 <img
                   alt="Gallery"
-                  className="w-full h-5/6  object-cover object-center block"
-                  src={cliff_profile}
+                  className="w-full h-full  object-cover object-center block"
+                  src={louie_1}
                 />
               </div>
             </div>
@@ -328,21 +332,21 @@ const Gallery = () => {
                 <img
                   alt="Gallery"
                   className="w-full h-full object-cover object-center block"
-                  src={nate_profile}
+                  src={louie_4}
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <img
                   alt="Gallery"
                   className="w-full object-cover h-full object-center block"
-                  src={cliff_3}
+                  src={louie_2}
                 />
               </div>
               <div className="md:p-2 p-1 w-1/2">
                 <img
                   alt="Gallery"
-                  className="w-full object-cover  object-center block"
-                  src={cliff_1}
+                  className="w-full object-cover  object-center block h-full"
+                  src={nate_5}
                 />
               </div>
             </div>
