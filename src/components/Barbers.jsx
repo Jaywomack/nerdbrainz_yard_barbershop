@@ -21,7 +21,7 @@ const Barbers = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           {/* start barber 1 pricing */}
-          <div className="p-4 lg:w-1/4 md:w-1/2">
+          <div className="p-4 lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center ">
               <img
                 alt="team"
@@ -148,7 +148,7 @@ const Barbers = () => {
           </div>
           {/* End Barber 1 pricing */}
           {/* start barber 2 pricing */}
-          <div className="p-4 lg:w-1/4 md:w-1/2">
+          <div className="p-4 lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
               <img
                 alt="team"
@@ -257,7 +257,7 @@ const Barbers = () => {
           </div>
           {/* End barber 2 pricing */}
           {/* start barber 3 pricing */}
-          <div className="p-4 lg:w-1/4 md:w-1/2">
+          <div className="p-4 lg:w-1/3 md:w-1/2">
             <div className="h-full flex flex-col items-center text-center">
               <img
                 alt="team"
@@ -376,133 +376,7 @@ const Barbers = () => {
             </div>
           </div>
           {/* End Barber 3 pricing */}
-          {/* start barber 4 pricing */}
-          <div className="p-4 lg:w-1/4 md:w-1/2">
-            <div className="h-full flex flex-col items-center text-center">
-              <img
-                alt="team"
-                className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                src={louie_profile}
-              />
-              <div className="w-full">
-                <a
-                  className="title-font font-medium text-lg text-white"
-                  href="tel:509-560-9796"
-                >
-                  <h2 className="title-font font-medium text-lg text-white">
-                    Louie Reyes
-                  </h2>
-                  <p>509-560-9796</p>
-                  <h3 className="text-white mb-3 text-red-600">Barber</h3>
-                </a>
-                <a
-                  href="https://www.instagram.com/reyescuts24/"
-                  className="text-center mx-auto"
-                >
-                  <img
-                    src={insta}
-                    className="h-24 w-24 mx-auto mb-3 filter invert"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="">
-                <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
-                  <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
-                    Louie Reyes
-                  </span>
-                  <h2 className="text-base tracking-widest title-font mb-1 font-medium">
-                    Louie's Services
-                  </h2>
-                  <h1 className="text-4xl text-white pb-4 mb-4 border-b border-red-600 leading-none">
-                    $30.00-$100.00
-                  </h1>
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">UNDERCUT</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          30mins
-                        </span>
-                        $30.00
-                      </p>
-                    </div>
-                  </div>
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">SHADOW FADE</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          1 hr
-                        </span>
-                        $30.00
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">SKIN FADE</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          1.25hr
-                        </span>
-                        $30.00
-                      </p>
-                    </div>
-                  </div>
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">FULL SERVICE</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          1.25hr
-                        </span>
-                        $50.00
-                      </p>
-                    </div>
-                  </div>
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">VIP</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          1.5hr
-                        </span>
-                        $50.00
-                      </p>
-                    </div>
-                  </div>
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">HOUSE CALLS</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          1.5hr
-                        </span>
-                        $100.00
-                      </p>
-                    </div>
-                  </div>
-
-                  <p className="text-xs text-white mt-3">
-                    **Cuts include shears, straight razor work and eyebrows
-                  </p>
-                  <p className="text-xs text-white mt-3">
-                    ** Beards additional $5
-                  </p>
-                  {/* start of filler */}
-                  <p className="text-xs text-black mt-3">
-                    **Basic cut includes buzz cut, head shave, senior citizen,
-                    line-up w/beard.
-                  </p>
-
-                  {/* end of filler */}
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* End Barber 4 pricing */}
+          
         </div>
       </div>
     </section>
