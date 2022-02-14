@@ -1,6 +1,6 @@
 import cliff_profile from "../images/cliff_profile_three.png";
 import nate_profile from "../images/nate_profile_two.png";
-import louie_profile from "../images/louie_profile_two.png";
+import cameron_profile from "../images/cameron_profile.png";
 import nicks_profile from "../images/nicks_profile_two.png";
 import insta from "../images/insta.png";
 const Barbers = () => {
@@ -326,7 +326,7 @@ const Barbers = () => {
                         <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
                           1 hr
                         </span>
-                        $30.00
+                        $25.00
                       </p>
                     </div>
                   </div>
@@ -376,7 +376,129 @@ const Barbers = () => {
             </div>
           </div>
           {/* End Barber 3 pricing */}
-          
+          {/* start barber 4 pricing */}
+          <div className="p-4 lg:w-1/3 md:w-1/2">
+            <div className="h-full flex flex-col items-center text-center">
+              <img
+                alt="team"
+                className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                src={cameron_profile}
+              />
+              <div className="w-full">
+                <a
+                  className="title-font font-medium text-lg text-white"
+                  href="tel:509-842-7402"
+                >
+                  <h2 className="title-font font-medium text-lg text-white">
+                    Cameron Soheili
+                  </h2>
+                  <p>509-319-7168</p>
+                  <h3 className="text-white mb-3 text-red-600">Barber</h3>
+                </a>
+                <a
+                  href="https://www.instagram.com/true_king_barber/"
+                  className="text-center mx-auto"
+                >
+                  <img
+                    src={insta}
+                    className="h-24 w-24 mx-auto mb-3 filter invert"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="">
+                <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
+                  <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
+                    Cameron Soheili
+                  </span>
+                  <h2 className="text-base tracking-widest title-font mb-1 font-medium">
+                    Cameron's Services
+                  </h2>
+                  <h1 className="text-4xl text-white pb-4 mb-4 border-b border-red-600 leading-none">
+                    $25.00-$140.00
+                  </h1>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">KIDS CUT</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          30mins
+                        </span>
+                        $25.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">ADULT CUT</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          30 mins
+                        </span>
+                        $30.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">BRAIDS</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1 hr
+                        </span>
+                        $60.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">DREADLOCKS</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1 hr
+                        </span>
+                        $60.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">COLOR</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1 hr
+                        </span>
+                        $60.00
+                      </p>
+                    </div>
+                  </div>
+                  <div className="inline-flex">
+                    <div className="w-full inline-flex justify-between items-center align-middle">
+                      <p className="ml-3">HOUSE CALLS</p>
+                      <p className="p-1 text-red-600 text-xl rounded ml-3">
+                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
+                          1.5 hr
+                        </span>
+                        $140.00
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* start of filler */}
+                  <p className="text-xs text-white mt-3">
+                    ** Traditional Barber specializations include: kids cuts,
+                    adult cuts, braids, dreadlocks, and color.
+                  </p>
+                  <p className="text-xs text-white mt-3">
+                    **House calls start at $140.00**
+                  </p>
+
+                  {/* end of filler */}
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* End Barber 3 pricing */}
         </div>
       </div>
     </section>
