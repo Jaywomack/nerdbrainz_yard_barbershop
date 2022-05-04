@@ -167,7 +167,7 @@ const Barbers = () => {
                   <h3 className="text-white mb-3 text-red-600">Barber</h3>
                 </a>
                 <a
-                  href="https://www.instagram.com/certafide_king/"
+                  href="https://www.instagram.com/certafied_kutz/"
                   className="text-center mx-auto"
                 >
                   <img
