@@ -15,8 +15,8 @@ const Barbers = () => {
             MEET THE TEAM
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-2xl">
-            At The Yard Barber's our team offer a full range of classic and
-            modern mens haircuts for all hair types.
+            At The Yard Barber, our team offers a full range of classic and
+            modern men's haircuts for all hair types.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

@@ -299,7 +299,7 @@ const Gallery = () => {
             </h1>
             <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-left text-base text-white text-2xl">
               If you have a look in mind that you can't see in our pricing, just
-              ask. If you need something truely custom
+              ask. If you need something truly custom
               <span className="text-3xl text-white"> We Got You!</span>
             </p>
           </div>
