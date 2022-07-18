@@ -1,8 +1,8 @@
-import cliff_profile from "../images/cliff_profile_three.png";
-import nate_profile from "../images/nate_profile_two.png";
-import cameron_profile from "../images/cameron_profile.png";
-import nicks_profile from "../images/nicks_profile_two.png";
-import insta from "../images/insta.png";
+import cliff_profile from "../images/cliff_profile_three.png"
+import nate_profile from "../images/nate_profile_two.png"
+import cameron_profile from "../images/cameron_profile.png"
+import nicks_profile from "../images/nicks_profile_two.png"
+import insta from "../images/insta.png"
 const Barbers = () => {
   return (
     <section className="text-white bg-black body-font ">
@@ -148,113 +148,7 @@ const Barbers = () => {
           </div>
           {/* End Barber 1 pricing */}
           {/* start barber 2 pricing */}
-          <div className="p-4 lg:w-1/3 md:w-1/2">
-            <div className="h-full flex flex-col items-center text-center">
-              <img
-                alt="team"
-                className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                src={nate_profile}
-              />
-              <div className="w-full">
-                <a
-                  className="title-font font-medium text-lg text-white"
-                  href="tel:208-704-6952"
-                >
-                  <h2 className="title-font font-medium text-lg text-white">
-                    Nate Webster{" "}
-                  </h2>
-                  <p>208-704-6952</p>
-                  <h3 className="text-white mb-3 text-red-600">Barber</h3>
-                </a>
-                <a
-                  href="https://www.instagram.com/certafied_kutz/"
-                  className="text-center mx-auto"
-                >
-                  <img
-                    src={insta}
-                    className="h-24 w-24 mx-auto mb-3 filter invert"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="">
-                <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden border-2 border-red-600">
-                  <span className="bg-red-600 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
-                    Nate Webster
-                  </span>
-                  <h2 className="text-base tracking-widest title-font mb-1 font-medium">
-                    Nate's Services
-                  </h2>
-                  <h1 className="text-4xl text-white pb-4 mb-4 border-b border-red-600 leading-none">
-                    $35.00-$125.00
-                  </h1>
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">CHILD / TEEN</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          1 hr
-                        </span>
-                        $35.00
-                      </p>
-                    </div>
-                  </div>
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">ADULT CUT</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          1 hr
-                        </span>
-                        $40.00
-                      </p>
-                    </div>
-                  </div>
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">FULL KING</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          1.5 hr
-                        </span>
-                        $60.00
-                      </p>
-                    </div>
-                  </div>
 
-                  <div className="inline-flex">
-                    <div className="w-full inline-flex justify-between items-center align-middle">
-                      <p className="ml-3">HOUSE CALL</p>
-                      <p className="p-1 text-red-600 text-xl rounded ml-3">
-                        <span className="p-1 text-base bg-red-600 text-white rounded mr-2">
-                          1.5hr
-                        </span>
-                        $125 +
-                      </p>
-                    </div>
-                  </div>
-
-                  <p className="text-xs text-white mt-3">
-                    **Adult Cut includes fade, skin fade, or taper fade with
-                    razor lining.
-                  </p>
-                  <p className="text-xs text-white mt-3">
-                    **Full King includes fade, skin fade, or taper fade with
-                    razor lining, enhancements, eyebrows, nose hairs, hot towel
-                    shave, black mask.
-                  </p>
-                  <p className="text-xs text-white mt-3">
-                    **Child / Teen include fade, skin fade, taper fade with
-                    razor lining, hair designed add $5 + depending on how
-                    intricate the design
-                  </p>
-                  <p className="text-xs text-white mt-3">
-                    **Enhancements on request
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
           {/* End barber 2 pricing */}
           {/* start barber 3 pricing */}
           <div className="p-4 lg:w-1/3 md:w-1/2">
@@ -502,7 +396,7 @@ const Barbers = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Barbers;
+export default Barbers
